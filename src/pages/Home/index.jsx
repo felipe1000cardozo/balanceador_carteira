@@ -1,5 +1,13 @@
+import CarteiraTotal from '../../components/CarteiraTotal'
+import { StyledHome } from './style'
+
 const Home = () => {
-  return <h1>Home</h1>;
+  return (
+  <StyledHome>
+    <CarteiraTotal />
+  </StyledHome>)
+    
+ 
 };
 
 export default Home;
