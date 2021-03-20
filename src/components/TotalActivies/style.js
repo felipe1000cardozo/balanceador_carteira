@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
-export const StyledCarteira = styled.div`
+export const StyledActivies = styled.div`
   border-radius: 3px;
   padding: 20px 20px;
-  width: 90%;
+  width: 35%;
   box-shadow: 1px 1px 10px;
+  margin: 20px;
 
   .container-titulo {
     color: green;

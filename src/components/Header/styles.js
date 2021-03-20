@@ -5,7 +5,7 @@ export const StyledHeader = styled.div`
   margin-bottom: 36px;
 }
   h1 {
-    background-color: #995DB5;
+    background-color: #1D6122;
     color: #fff;
     padding: 20px;
     span{
