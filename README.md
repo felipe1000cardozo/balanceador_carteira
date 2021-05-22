@@ -18,7 +18,7 @@ npm install -g json-server
 json-server --watch db.json
 
 
-## Ferramentas utilizadas
+## Stacks
 
 - React
 - GraphQl
@@ -26,9 +26,9 @@ json-server --watch db.json
 - Mongo.db
 
 
-## Estrutura de Pastas
+## Folder structure
 
-| Nome da Pasta | Descrição                                    |
+| Page names    | Description                                  |
 | ------------- | -------------------------------------------- |
 | `components`  | all components                               |
 | `styles`      | page styles                                  |
