@@ -3,18 +3,22 @@ import Header from "./components/Header";
 import routePatchEnum from "./enums/routePatchEnum";
 import Home from "./pages/Home";
 import PortifolioMeta from "./pages/PortifolioMeta";
+import Login from "./pages/Login";
 
 const Routes = () => {
   return (
     <BrowserRouter>
-      <Header />
       <Switch>
-        <Route exact path={routePatchEnum.HOME} component={Home} />
-        <Route
-          exact
-          path={routePatchEnum.PORTIFOLIO_META}
-          component={PortifolioMeta}
-        />
+        <Route exact path={routePatchEnum.LOGIN} component={Login} />
+        <>
+          <Header />
+          <Route exact path={routePatchEnum.HOME} component={Home} />
+          <Route
+            exact
+            path={routePatchEnum.PORTIFOLIO_META}
+            component={PortifolioMeta}
+          />
+        </>
       </Switch>
     </BrowserRouter>
   );
